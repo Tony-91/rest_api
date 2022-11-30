@@ -3,16 +3,19 @@ const bodyParser = require("body-parser");
 const app = express();
 app.use(bodyParser.json());
 
+// Our list of patients. Instead of implimenting a back0end database I made variables. 
 let patients = new Object();
 patients["900023266"] = ["Toby", "Perez", "910-328-0484"];
 patients["600023299"] = ["Mike", "Willow", "323-420-6969"];
 
+// My records variable - the info the user receives when they resquest using GET/PUT/POST/DELETE function.
 let records = new Object();
 records["900023266"] = "Status: Healthy";
 records["600023299"] = "Status: Slight Fever";
 
 // HTTP GET patient medical records - request info
 // " /records " in the records folder
+// req = request , res = response 
 app.get("/records", (req, res) => {
   // verify patient exists
   if (records[req.headers.ssn] === undefined) {
