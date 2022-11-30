@@ -32,7 +32,9 @@ Four  common HTTP request methods
 
 # Postman
 ![](images/postman.jpeg)
-## Postman is used to test API calls. Postman simply sends an API request to the web server and receives the response. It's a great tool peridically test all your hard work! You can use header funcationality to act as end-user inputs and body functionality to acty as the payload.
+## Postman is used to test API calls. Postman simply sends an API request to the web server and receives the response.
 
 ![](images/postman1.png)
+
+> It's a great tool peridically test all your hard work! You can use header funcationality to act as end-user inputs and body functionality to acty as the payload.
 
