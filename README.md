@@ -29,3 +29,6 @@ Four  common HTTP request methods
 * HTTP PUT - change medical info
 * HTTP POST - change phone number 
 * HTTP DELETE - delete info 
+
+# Postman
+![](images/postman.jpeg)
