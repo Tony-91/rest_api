@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
 app.use(bodyParser.json());
-
+// JST PASSING BY
 // Our list of patients. Instead of implimenting a back0end database I made variables. 
 let patients = new Object();
 patients["900023266"] = ["Toby", "Perez", "910-328-0484"];
